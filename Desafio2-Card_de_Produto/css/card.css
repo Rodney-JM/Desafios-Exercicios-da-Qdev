@@ -1,0 +1,87 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: BlackFriday;
+    src: url(/Desafio2-Card_de_Produto/fonts/Roboto-Bold.ttf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slogan{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.title{
+    margin-bottom: 2rem;
+}
+
+.BlackFriday{
+    font-size: 40px;
+
+    background-color: black;
+    color: white;
+    padding: 1rem;
+   
+    
+    font-family: BlackFriday, Arial, Helvetica, sans-serif;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid: 1rem;
+}
+
+.product img{
+    width: 250px;
+}
+
+.product{
+    text-align: center;
+    height: 400px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-image: radial-gradient(white, rgb(233, 233, 233));
+    border-radius: 0.5rem;
+    box-shadow: 10px 10px 10px rgb(129, 129, 129);
+}
+
+.percent{
+    background-color: #F16427;
+    color: white;
+    padding: 0.2rem;
+    margin-right: 0.3rem;
+}
+
+.Oferta{
+    color: #F16427;
+    font-weight: bold;
+}
+
+.description{
+    margin-top: 0.2rem;
+    color: rgb(122, 122, 122);
+}
+
+.price{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: rgb(91, 91, 91);
+}
+
+.price1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.price2{
+    text-decoration: line-through;
+}
+
+.vmais{
+    color: rgb(100, 100, 219);
+}
