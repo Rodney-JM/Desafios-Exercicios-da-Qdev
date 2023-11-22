@@ -1,0 +1,79 @@
+@import url(reset.css);
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rodape{
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.rodape-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #003231;
+    padding: 3rem;
+    color: white;
+    
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    background-color: #001717;
+    padding: 0.4rem;
+    color: white;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-right: 3rem;
+}
+
+.logo span{
+    color: #00ffff;
+}
+
+.bloco{
+    
+    width: 10rem;
+    margin-left: 5rem;
+}
+
+.bloco .title{
+    margin-bottom: 1rem;
+    color: rgb(222, 222, 222);
+}
+
+.bloco ul li {
+    color: white;
+    margin-top: 0.8rem;
+}
+
+.redes button{
+    width: 10rem;
+    font-size: 1rem;
+    padding: 0.4rem;
+    margin-top: 0.7rem;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+.redes button:hover{
+    background-color: #81f9f9;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.icon{
+    
+    font-size: 2.5rem;
+    margin-right: 0.6rem;
+}
