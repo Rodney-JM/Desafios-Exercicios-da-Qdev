@@ -1,0 +1,100 @@
+/* Reset CSS */
+@import url(reset.css);
+
+/* Estilo global do body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos do rodapé */
+.rodape {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.rodape-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #003231;
+    padding: 3rem;
+    color: white;
+}
+
+/* Estilos do copyright */
+.copyright {
+    width: 100%;
+    text-align: center;
+    background-color: #001717;
+    padding: 0.4rem;
+    color: white;
+}
+
+/* Estilos da logo */
+.logo {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-right: 3rem;
+}
+
+.logo span {
+    color: #00ffff;
+}
+
+/* Estilos do bloco */
+.bloco {
+    width: 10rem;
+    margin-left: 5rem;
+}
+
+.bloco .title {
+    margin-bottom: 1rem;
+    color: rgb(222, 222, 222);
+}
+
+.bloco ul li {
+    color: white;
+    margin-top: 0.8rem;
+}
+
+/* Estilos das redes sociais */
+.redes button {
+    width: 10rem;
+    font-size: 1rem;
+    padding: 0.4rem;
+    margin-top: 0.7rem;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+.redes button:hover {
+    background-color: #81f9f9;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Estilos dos ícones das redes sociais */
+.icon {
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-right: 0.6rem;
+}
+
+.bxl-facebook:hover {
+    color: #0A66C2;
+    transition: all 0.2s ease;
+}
+
+.bxl-instagram:hover {
+    color: #F7109C;
+    transition: all 0.2s ease;
+}
+
+.bxl-twitter:hover {
+    color: #1DA1F3;
+    transition: all 0.2s ease;
+}
