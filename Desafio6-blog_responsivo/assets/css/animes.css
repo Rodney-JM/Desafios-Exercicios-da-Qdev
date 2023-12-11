@@ -1,0 +1,97 @@
+.animes{
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.animes-do-momento{
+    height: 1400px;
+    background-image: radial-gradient(white, rgb(210, 210, 210));
+    color: black;
+}
+
+.animes-do-momento img{
+    width: 250px;
+    height: 350px;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}
+
+.animes-do-momento .title{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+
+.line{
+    width:200px;
+    height: 5px;
+    background-color: #578dff;
+    border-radius: 9999px;
+    margin:2px auto 20px auto ;
+}
+
+.blocos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.bloco{
+    background-color: #0e182c;
+    color: white;
+    width: 300px;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+}
+
+.bxs-star{
+    margin-top: 0.5rem;
+    color: rgb(216, 216, 0);
+}
+
+.sinopse{
+    color: rgb(172, 172, 172);
+}
+
+.sinopse span{
+    color: white;
+}
+
+.Veja-mais{
+    background-color: #578dff;
+    color: white;
+    margin: auto;
+    margin-top: 0.5rem;
+
+    font-size: 0.8rem;
+    font-weight: bold;
+
+    width: 150px;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+
+    transition: all 0.2s ease;
+}
+
+.Veja-mais:hover{
+    background-color: #446fcb;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+@media(max-width:800px){
+    .animes-do-momento{
+        height: 4000px;
+    }
+    .blocos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+}
+

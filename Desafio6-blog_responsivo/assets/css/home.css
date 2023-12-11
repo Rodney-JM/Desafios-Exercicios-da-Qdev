@@ -1,0 +1,74 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(animes.css);
+@import url(slides.css);
+@import url(grupos.css);
+@import url(rodape.css);
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.home-page{
+    display: flex;
+    align-items: center;
+
+    height: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+    background-image: url(/assets/image/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-page-container{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+
+.home-page-content{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.home-page-content .title{
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    
+    letter-spacing: 1px;
+    color: white;
+    /* background: -webkit-linear-gradient(white, rgb(109, 109, 109)); */
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+.home-page-content .title span{
+    color: #578dff;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+@media(max-width: 800px){
+    .home-page-content .title{
+        font-size: 1.9rem;
+    }
+    .home-page-content .title span{
+        font-size: 1.9rem;
+    }
+}
