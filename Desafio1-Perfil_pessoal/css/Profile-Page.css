@@ -2,8 +2,9 @@
 @import url(reset.css);
 
 /* Estilo para o corpo da página */
-body {
+body, html {
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Estilo para a página de perfil */
